@@ -252,6 +252,8 @@ function drag(ev) {
   ev.dataTransfer.setData("text", ev.target.dataset.cardIndex);
   // const cardIndex = parseInt(ev.dataTransfer.getData("text"));
   // document.getElementById("card-in-hand-" + cardIndex).classList.add("hide");
+  // const CARD_IN_HAND = document.querySelector("card-in-hand");                         //cursor:grab in cursor:grabbing
+  // CARD_IN_HAND.classList.replace("cursor-grab", "cursor-grabbing");
 }
 
 function drop(ev) {
