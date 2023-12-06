@@ -339,9 +339,4 @@ function endTurn() {
   turnsPassed++;
   displayEnemyActions();
   displayStats();
-
-  // console.log("______________________________");
-  // console.log("DISCARD_PILE: ", DISCARD_PILE);
-  // console.log("HAND: ", HAND);
-  // console.log("APERTURA_DECK: ", APERTURA_DECK);
 }

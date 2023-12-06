@@ -76,18 +76,19 @@
   width: 100%;
   display: flex;
   position: relative;
+  border: 1px solid black;
 }
 
 .counter-caption {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 3px;
+  top: 3px;
 }
 
 .counter-value {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 3px;
+  bottom: 3px;
 }
 
 #enemy-zone {

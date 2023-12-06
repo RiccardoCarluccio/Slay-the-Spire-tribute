@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid black;
 }
 
 body {
@@ -44,6 +43,17 @@ body {
 
 .enemy-hp-segment {
   background-color: oklch(41.47% 0.155 25.41);
+  border-style: solid;
+  border-color: black;
+  border-width: 0 1px 0 1px;
+}
+
+#enemy-health-bar .enemy-hp-segment:first-child {
+  border-top: 1px solid black;
+}
+
+#enemy-health-bar .enemy-hp-segment:last-child {
+  border-bottom: 1px solid black;
 }
 
 /* DISCARD PILE OFFCANVA */

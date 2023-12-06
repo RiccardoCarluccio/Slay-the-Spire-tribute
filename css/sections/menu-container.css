@@ -48,10 +48,12 @@
 
 .energy-segment {
   background-color: oklch(70% 0.148 72.53);
+  border: 1px solid black;
 }
 
 #negative-meter {
   display: flex;
+  border: 1px solid black;
 }
 
 .negative-segment {
@@ -69,6 +71,13 @@
 
 .hp-segment {
   height: 100%;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+}
+
+#hp-meter .hp-segment:last-child {
+  border-right: 1px solid black;
 }
 
 #chance-nrg-hp-container,
@@ -82,11 +91,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 #last-chance {
   height: 50px;
   aspect-ratio: 3/5;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;      /* da valutare se 0 a dx ed aggiungere un if(APERTURA_CHAR.HP<0) */
 }
 
 #energy-meter,
@@ -102,6 +115,7 @@
   height: 25px;
   width: 610px;
   display: flex;
+  border: 1px solid black;
 }
 
 .ult-segment {
@@ -116,4 +130,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
